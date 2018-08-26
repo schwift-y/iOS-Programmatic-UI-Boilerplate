@@ -1,6 +1,17 @@
-//
-// Created by Matthew Oaxaca on 8/25/18.
-// Copyright (c) 2018 Matt Oaxaca. All rights reserved.
-//
-
 import Foundation
+
+protocol ExampleRepositoryProtocol: class {
+    func getText() -> String
+}
+
+class ExampleRepository: ExampleRepositoryProtocol {
+    func getText() -> String {
+        return "ExampleRepository"
+    }
+}
+
+class TestExampleRepository: ExampleRepositoryProtocol {
+    func getText() -> String {
+        return "TestExampleRepository"
+    }
+}

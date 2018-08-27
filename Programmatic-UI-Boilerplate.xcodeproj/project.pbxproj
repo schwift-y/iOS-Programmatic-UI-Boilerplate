@@ -43,10 +43,10 @@
 		1C03D26EA61CB0CF4D7C7F76 /* Pods-Programmatic-UI-Boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Programmatic-UI-Boilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Programmatic-UI-Boilerplate/Pods-Programmatic-UI-Boilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		330710647BA184F031CF5CE5 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		330711E3497BDD9A717B7055 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; name = config.yml; path = .circleci/config.yml; sourceTree = "<group>"; };
+		3307127DBEB99BE913826535 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = file.keep; name = .keep; path = outputs/.keep; sourceTree = "<group>"; };
 		33071654CF3AD21F59CAE465 /* ExampleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleRepository.swift; sourceTree = "<group>"; };
 		330716C72F3EB70F08E794F8 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		33071AF8F42DDC2AE2A5D2AE /* outputs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = outputs; sourceTree = "<group>"; };
-		33071C2138EBC26667505DFE /* .keep */ = {isa = PBXFileReference; lastKnownFileType = file.keep; name = .keep; path = outputs/.keep; sourceTree = "<group>"; };
 		33071F65D409417FA15521F5 /* .circleci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .circleci; sourceTree = "<group>"; };
 		33071FF08A5FB10108FC8F72 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4DC5743B6CFE966B43165248 /* Pods-Programmatic-UI-BoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Programmatic-UI-BoilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Programmatic-UI-BoilerplateTests/Pods-Programmatic-UI-BoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 				330710647BA184F031CF5CE5 /* .swiftlint.yml */,
 				330711E3497BDD9A717B7055 /* config.yml */,
 				33071AF8F42DDC2AE2A5D2AE /* outputs */,
-				33071C2138EBC26667505DFE /* .keep */,
+				3307127DBEB99BE913826535 /* .keep */,
 			);
 			sourceTree = "<group>";
 		};

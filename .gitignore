@@ -3,5 +3,3 @@ fastlane/report.xml
 outputs/
 !outputs/.keep
 Pods/
-Programmatic-UI-Boilerplate.xcodeproj/xcuserdata/
-Programmatic-UI-Boilerplate.xcworkspace/xcuserdata

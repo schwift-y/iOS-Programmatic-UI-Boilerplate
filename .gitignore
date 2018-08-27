@@ -1,4 +1,5 @@
 .idea/
+xcuserdata/
 fastlane/report.xml
 outputs/
 !outputs/.keep

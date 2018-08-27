@@ -45,6 +45,8 @@
 		330711E3497BDD9A717B7055 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; name = config.yml; path = .circleci/config.yml; sourceTree = "<group>"; };
 		33071654CF3AD21F59CAE465 /* ExampleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleRepository.swift; sourceTree = "<group>"; };
 		330716C72F3EB70F08E794F8 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		33071AF8F42DDC2AE2A5D2AE /* outputs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = outputs; sourceTree = "<group>"; };
+		33071C2138EBC26667505DFE /* .keep */ = {isa = PBXFileReference; lastKnownFileType = file.keep; name = .keep; path = outputs/.keep; sourceTree = "<group>"; };
 		33071F65D409417FA15521F5 /* .circleci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .circleci; sourceTree = "<group>"; };
 		33071FF08A5FB10108FC8F72 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4DC5743B6CFE966B43165248 /* Pods-Programmatic-UI-BoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Programmatic-UI-BoilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Programmatic-UI-BoilerplateTests/Pods-Programmatic-UI-BoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		C934E6292131CBE3007BB1D1 /* Programmatic-UI-BoilerplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic-UI-BoilerplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C934E62D2131CBE3007BB1D1 /* Programmatic_UI_BoilerplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_UI_BoilerplateUITests.swift; sourceTree = "<group>"; };
 		C934E62F2131CBE3007BB1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9371533213380EF00465FB7 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +128,13 @@
 				C934E60B2131CBE1007BB1D1 /* Products */,
 				7A6C4C570D682DCBE99760C3 /* Pods */,
 				EE565F50A8B5C5AEE09C188A /* Frameworks */,
+				33071F65D409417FA15521F5 /* .circleci */,
+				C9371533213380EF00465FB7 /* fastlane */,
 				33071FF08A5FB10108FC8F72 /* .gitignore */,
 				330710647BA184F031CF5CE5 /* .swiftlint.yml */,
-				33071F65D409417FA15521F5 /* .circleci */,
 				330711E3497BDD9A717B7055 /* config.yml */,
+				33071AF8F42DDC2AE2A5D2AE /* outputs */,
+				33071C2138EBC26667505DFE /* .keep */,
 			);
 			sourceTree = "<group>";
 		};
